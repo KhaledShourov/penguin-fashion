@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+/*------Common Style Start--------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+p {
+    font-family: 'Roboto',
+        sans-serif;
+        font-size: 16px;
+}
+
+/*------Common Style End--------*/
+
+
+.top-nav{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 28px;
+
+}
+
+#hero{
+    background-color: #FFFBF0;
+}
+.highlight{
+    color: #FABE4C;
+    font-size: 80px;
+}
+.slider-left h1{
+    font-size: 80px;
+}
+.custom-btn{
+    padding: 15px 24px;
+    background-color:#A4BC46;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.custom-btn i{
+    margin-right: 10px;
+}
+
+.slider img
+{
+    height: 550px;
+    width: 400px;
+    padding-bottom: 40px;
+}
+.penguin-single-card img{
+    background-color: #F1F1F1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.penguin-single-card{
+    border-radius: 20px;
+}
+.product-details{
+    margin: 20px;
+   -webkit-box-shadow: 1px 10px 14px 7px #F1F1F1;
+   box-shadow: 1px 10px 14px 7px #F1F1F1;
+    border-radius: 10px;
+}
+.price {
+    font-size: 28px;
+    font-weight: bold;
+   color: #FABE4C;
+}
+.owin-card{
+    border: 0;
+}
+.owin-card h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feature-left{
+    padding: 15px;
+    margin: 20px;
+    -webkit-box-shadow: 1px 10px 14px 7px #F1F1F1;
+    box-shadow: 1px 10px 14px 7px #F1F1F1;
+    border-radius: 10px;
+}
+.feature-left img{
+    width: 60px;
+    margin-right: 20px;
+}
+.feature-img img{
+    width: 100%;
+}
+
+.footer i{
+    margin-right: 10px;
+}
